@@ -31,13 +31,17 @@ import {
       title: "About",
     },
     {
+      id: 'tech',
+      title: 'Technologies'
+    },
+    {
       id: "work",
       title: "Work",
     },
     {
       id: "contact",
       title: "Contact",
-    },
+    }
   ];
   
   const services = [
@@ -216,7 +220,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/TaahaaUsman",
     },
     {
       name: "Job IT",
@@ -237,7 +241,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/TaahaaUsman",
     },
     {
       name: "Trip Guide",
@@ -258,7 +262,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/TaahaaUsman",
     },
   ];
   
