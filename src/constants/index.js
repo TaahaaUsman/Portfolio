@@ -23,6 +23,17 @@ import {
     jobit,
     tripguide,
     threejs,
+    gsap,
+    vercel,
+    dice,
+    routing,
+    clock,
+    golf,
+    gsap_practice,
+    nike,
+    soda,
+    ccl, 
+    teacher2,
   } from "../assets";
   
   export const navLinks = [
@@ -50,15 +61,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React JS Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Front End Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "JavaScript Developer",
       icon: creator,
     },
   ];
@@ -77,12 +88,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: 'React Routing',
+      icon: routing,
     },
     {
       name: "Redux Toolkit",
@@ -93,13 +104,17 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Gsap",
+      icon: gsap,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     {
       name: "Three JS",
       icon: threejs,
@@ -108,67 +123,44 @@ import {
       name: "git",
       icon: git,
     },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      name: "Vercel",
+      icon: vercel,
     },
   ];
+
+  // I will add vercel and gsap logo.
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Medical Representative",
+      company_name: "CCL Phamaceuticals",
+      icon: ccl,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jan 2022 - Oct 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and executed sales strategies to promote pharmaceutical products, achieving the second-highest sales across Pakistan.",
+        "Collaborated with healthcare professionals and cross-functional teams to meet sales targets and improve product visibility.",
+        "Consistently managed and exceeded monthly sales goals throughout tenure at the company.",
+        "Earned a prestigious foreign tour as recognition for exceptional sales performance.",
+        "Provided regular feedback and insights to the sales team, contributing to continuous improvement in sales tactics.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Teacher",
+      company_name: "Ghazali High School",
+      icon: teacher2,
+      iconBg: "#ffff",
+      date: "July 2020 - Dec 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and implemented engaging lesson plans to align with the curriculum and educational standards.",
+        "Fostered a positive and inclusive classroom environment that encouraged student participation and learning.",
+        "Assessed and monitored student progress through assignments, exams, and projects, providing constructive feedback.",
+        "Collaborated with colleagues, parents, and school administration to support student development and address individual needs.",
       ],
     },
   ];
@@ -202,58 +194,37 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Soda E-commerce",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a soda e-commerce application using pure JavaScript and routing, aiming to refine and strengthen my foundational web development skills.",
       tags: [
         {
-          name: "react",
+          name: "javaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "html",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: soda,
       source_code_link: "https://github.com/TaahaaUsman",
     },
     {
-      name: "Job IT",
+      name: "Family Golf",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Created a family golf website clone using GSAP.js and other technologies to sharpen my skills and advance my learning in web development.",
       tags: [
         {
-          name: "react",
+          name: "javaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/TaahaaUsman",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "gsap",
           color: "green-text-gradient",
         },
         {
@@ -261,7 +232,87 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: golf,
+      source_code_link: "https://github.com/TaahaaUsman",
+    },
+    {
+      name: "Nike Shoes",
+      description:
+        "Developed a Nike shoes website as a single-page application using React, React Router, and other components to sharpen my web development skills.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react-router",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nike,
+      source_code_link: "https://github.com/TaahaaUsman",
+    },
+    {
+      name: "Coucher Clone",
+      description:
+        "Created a Coucher website clone utilizing plain JavaScript, CSS, and HTML, with advanced animations powered by GSAP to enrich the user experience.",
+      tags: [
+        {
+          name: "javaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "gsap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: gsap_practice,
+      source_code_link: "https://github.com/TaahaaUsman",
+    },
+    {
+      name: "Dice Game",
+      description:
+        "Through building the game, I enhanced my ability to create interactive and responsive user interfaces, while also working on DOM manipulation, user interaction and State management.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dice,
+      source_code_link: "https://github.com/TaahaaUsman",
+    },
+    {
+      name: "Digital Clock",
+      description:
+        "Designed and built a digital clock with a visually appealing layout using plain CSS and JavaScript. The clock features smooth animations and a polished design to enhance its functionality and aesthetic.",
+      tags: [
+        {
+          name: "javaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: clock,
       source_code_link: "https://github.com/TaahaaUsman",
     },
   ];

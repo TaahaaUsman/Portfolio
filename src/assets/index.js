@@ -6,6 +6,23 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import herobg from './herobg.png';
+
+// My logos 
+import taha from './my_icons/pic.png';
+import favicon from './my_icons/favicon.svg';
+import gsap from './my_icons/gsap.svg'
+import vercel from './my_icons/vercel.svg'
+import dice from './my_icons/Dice.png';
+import routing from './my_icons/Routing.svg'
+import clock from './my_icons/clock.png'
+import soda from './my_icons/soda.png'
+import nike from './my_icons/nike.png'
+import gsap_practice from './my_icons/gsap_practice.png'
+import golf from './my_icons/golf.png'
+import ccl from './my_icons/ccl.png'
+import teacher2 from './my_icons/teacher2.png'
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -31,6 +48,21 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  // My icons
+  gsap,
+  taha,
+  favicon,
+  vercel,
+  dice,
+  routing,
+  clock,
+  golf,
+  gsap_practice,
+  nike,
+  soda,
+  ccl,
+  teacher2,
+  // My icons end
   logo,
   backend,
   creator,
@@ -59,4 +91,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  herobg,
 };

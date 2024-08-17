@@ -35,7 +35,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)} 
         className='mt-4 text-[#dfd9ff] text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your idea to life.
+        As a React.js front-end developer, I create dynamic web experiences using GSAP, Three.js, Tailwind CSS, and custom CSS. I excel at building engaging interfaces and responsive designs while collaborating with cross-functional teams to ensure seamless integration and performance-focused, high-quality animations that elevate user experiences.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

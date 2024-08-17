@@ -2,7 +2,7 @@ import React, { act, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { styles } from '../style'
 import { navLinks } from '../constants'
-import { logo, menu, close } from '../assets'
+import { logo, menu, close, taha, favicon } from '../assets'
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -19,7 +19,7 @@ const Navbar = () => {
         window.scrollTo(0,0);
       }}
       >
-      <img src={logo} alt="logo" className='w-9 h-9 object-contain'/>
+      <img src={favicon} alt="logo" className='w-14 h-14 object-contain'/>
       <p className='text-white text-[18px] font-bold cursor-pointer'>Taahaa | Portfolie</p>
       </Link>
       <ul className='list-none hidden sm:flex flex-row gap-10'>

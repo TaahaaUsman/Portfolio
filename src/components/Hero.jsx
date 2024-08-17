@@ -2,11 +2,13 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { styles } from '../style'
 import { ComputersCanvas } from './canvas'
+import {herobg} from '../assets/index'
+
 
 
 const Hero = () => {
   return (
-    <section className='relative w-full h-screen mx-auto'>
+    <section className={`relative w-full h-screen mx-auto bg-${herobg}`}>
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-x-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className='flex flex-col justify-center items-center mt-5'>
 
@@ -17,7 +19,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi I'm <span className='text-[#915eff]'>Taahaa</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop 3D visuals, user<br className='sm:block hidden' /> interfaces and web applications</p>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop 3D animations, user<br className='sm:block hidden' /> interfaces and web applications</p>
         </div>
       </div>
 
