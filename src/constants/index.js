@@ -4,24 +4,12 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
     redux,
     tailwind,
-    nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     gsap,
     vercel,
@@ -76,11 +64,11 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
+      name: "HTML5",
       icon: html,
     },
     {
-      name: "CSS 3",
+      name: "CSS3",
       icon: css,
     },
     {
@@ -88,19 +76,19 @@ import {
       icon: javascript,
     },
     {
-      name: "React JS",
+      name: "ReactJS",
       icon: reactjs,
     },
     {
-      name: 'React Routing',
+      name: 'ReactRouting',
       icon: routing,
     },
     {
-      name: "Redux Toolkit",
+      name: "ReduxToolkit",
       icon: redux,
     },
     {
-      name: "Tailwind CSS",
+      name: "TailwindCSS",
       icon: tailwind,
     },
     {
@@ -116,7 +104,7 @@ import {
     //   icon: mongodb,
     // },
     {
-      name: "Three JS",
+      name: "ThreeJS",
       icon: threejs,
     },
     {
