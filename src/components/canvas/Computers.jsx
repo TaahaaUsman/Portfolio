@@ -5,7 +5,23 @@ import CanvasLoader from '../Loader';
 
 const Computers = ({ isMobile }) => {
   const { scene } = useGLTF('./desktop_pc/scene.gltf');
-  
+
+  scene.traverse((child) => {
+    if (child.isMesh) {
+      const geometry = child.geometry;
+      if (geometry) {
+        geometry.computeBoundingBox();
+        geometry.computeBoundingSphere();
+
+        // Check for NaN values and handle them
+        if (geometry.boundingSphere.radius !== geometry.boundingSphere.radius) { // NaN check
+          console.warn('Bounding sphere has NaN radius, setting to default value.');
+          geometry.boundingSphere.radius = 1;
+        }
+      }
+    }
+  });
+
   return (
     <mesh>
       <hemisphereLight intensity={0.35} groundColor="black" />
@@ -22,7 +38,7 @@ const Computers = ({ isMobile }) => {
       />
     </mesh>
   );
-}
+};
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
