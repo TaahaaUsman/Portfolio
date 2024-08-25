@@ -22,6 +22,9 @@ import gsap_practice from './my_icons/gsap_practice.png'
 import golf from './my_icons/golf.png'
 import ccl from './my_icons/ccl.png'
 import teacher2 from './my_icons/teacher2.png'
+import img1 from './my_icons/img1.png'
+import img2 from './my_icons/img2.png'
+import img3 from './my_icons/img3.png'
 
 
 import css from "./tech/css.png";
@@ -49,6 +52,9 @@ export {
   soda,
   ccl,
   teacher2,
+  img1,
+  img2,
+  img3,
   // My icons end
   backend,
   creator,

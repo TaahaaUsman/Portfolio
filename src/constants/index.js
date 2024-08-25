@@ -22,6 +22,9 @@ import {
     soda,
     ccl, 
     teacher2,
+    img1,
+    img2,
+    img3,
   } from "../assets";
   
   export const navLinks = [
@@ -156,27 +159,21 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxOTM5IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvdGh1bWJfNDk2NzI2M18xNzExMDEzODAzLnBuZyIsInVzZXJuYW1lIjoiVGFhaGFhIFVzbWFuICJ9&utm_source=shared-certificate&utm_medium=app_lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Fcertificates.simplicdn.net%2Fshare%2Fthumb_4967263_1711013803.png&_branch_match_id=1298641662543572008&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1vdOTE8tdk8Lt%2FBIAgAf5yd%2BIwAAAA%3D%3D",
+      title: 'Introduction to CSS',
+      image: img1,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIyMDA0IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvdGh1bWJfNDk2NTQ4MV8xNzEwODA1NzMwLnBuZyIsInVzZXJuYW1lIjoiVGFhaGFhIFVzbWFuICJ9&utm_source=shared-certificate&utm_medium=app_lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Fcertificates.simplicdn.net%2Fshare%2Fthumb_4965481_1710805730.png&_branch_match_id=1298641662543572008&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1q8w9vUtDysMN%2FFIAgByqh2oIwAAAA%3D%3D",
+      title: 'ReactJS Components',
+      image: img2,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxOTMzIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvdGh1bWJfNDk2NTIzMV8xNzEwODAzNzE5LnBuZyIsInVzZXJuYW1lIjoiVGFhaGFhIFVzbWFuIn0&utm_source=shared-certificate&utm_medium=app_lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Fcertificates.simplicdn.net%2Fshare%2Fthumb_4965231_1710803719.png&_branch_match_id=1298641662543572008&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1q%2Fwdq%2B0SDINMfFIAgBLqURLIwAAAA%3D%3D",
+      title : 'Front End development',
+      image: img3,
     },
   ];
   
