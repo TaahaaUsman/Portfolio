@@ -98,14 +98,7 @@ import {
       name: "Gsap",
       icon: gsap,
     },
-    // {
-    //   name: "Node JS",
-    //   icon: nodejs,
-    // },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
+
     {
       name: "ThreeJS",
       icon: threejs,
@@ -114,10 +107,6 @@ import {
       name: "git",
       icon: git,
     },
-    // {
-    //   name: "figma",
-    //   icon: figma,
-    // },
     {
       name: "Vercel",
       icon: vercel,
