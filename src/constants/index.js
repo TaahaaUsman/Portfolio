@@ -23,6 +23,7 @@ import {
   img1,
   img2,
   img3,
+  vu,
 } from "../assets";
 
 export const navLinks = [
@@ -166,6 +167,28 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Virtual University exams system",
+    description:
+      "I developed a real-world React.js app for virtual university students to access courses and attempt 200 MCQs, with a VU-like exam interface.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React-router-dom",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux toolkit",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vu,
+    source_code_link: "https://github.com/TaahaaUsman/VU-exams",
+    website_link: "https://vu-exams-prepration.vercel.app/",
+  },
   {
     name: "Iphone 15 Clone",
     description:

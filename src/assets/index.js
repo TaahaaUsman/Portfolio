@@ -25,6 +25,7 @@ import teacher2 from "./my_icons/teacher2.png";
 import img1 from "./my_icons/img1.png";
 import img2 from "./my_icons/img2.png";
 import img3 from "./my_icons/img3.png";
+import vu from "./my_icons/vu.png";
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -53,6 +54,7 @@ export {
   img1,
   img2,
   img3,
+  vu,
   // My icons end
   backend,
   creator,
