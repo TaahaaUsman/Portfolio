@@ -13,13 +13,11 @@ import {
   threejs,
   gsap,
   vercel,
-  dice,
   routing,
-  clock,
   golf,
-  gsap_practice,
+  brainwave,
   nike,
-  soda,
+  iphone,
   ccl,
   teacher2,
   img1,
@@ -116,8 +114,6 @@ const technologies = [
   },
 ];
 
-// I will add vercel and gsap logo.
-
 const experiences = [
   {
     title: "Medical Representative",
@@ -171,25 +167,44 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Soda E-commerce",
+    name: "Iphone 15 Clone",
     description:
-      "Developed a soda e-commerce application using pure JavaScript and routing, aiming to refine and strengthen my foundational web development skills.",
+      "A visually engaging iPhone 15 promotional site featuring a responsive navbar, GSAP animations, interactive 3D models with Three.js, detailed feature sections, and modern frontend technologies.",
     tags: [
       {
-        name: "javaScript",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "GSAP",
         color: "green-text-gradient",
       },
       {
-        name: "html",
+        name: "Three.js",
         color: "pink-text-gradient",
       },
     ],
-    image: soda,
-    source_code_link: "https://github.com/TaahaaUsman",
+    image: iphone,
+    source_code_link: "https://github.com/TaahaaUsman/iPhone-15",
+    website_link: "https://i-phone-15-eight.vercel.app/",
+  },
+  {
+    name: "Brainwave Clone",
+    description:
+      "Crafted a stunning Brainwave frontend clone using React.js, Tailwind CSS, and modern styled components.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: brainwave,
+    source_code_link: "https://github.com/TaahaaUsman/Brainwave",
+    website_link: "https://brainwave-omega-pied.vercel.app/",
   },
   {
     name: "Family Golf",
@@ -210,7 +225,8 @@ const projects = [
       },
     ],
     image: golf,
-    source_code_link: "https://github.com/TaahaaUsman",
+    source_code_link: "https://github.com/TaahaaUsman/Sidcup-Family-Golf",
+    website_link: "https://sidcup-family-golf-pied.vercel.app/",
   },
   {
     name: "Nike Shoes",
@@ -218,7 +234,7 @@ const projects = [
       "Developed a Nike shoes website as a single-page application using React, React Router, and other components to sharpen my web development skills.",
     tags: [
       {
-        name: "reactjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
@@ -231,67 +247,47 @@ const projects = [
       },
     ],
     image: nike,
-    source_code_link: "https://github.com/TaahaaUsman",
+    source_code_link: "https://github.com/TaahaaUsman/Nike-shoes-Website",
+    website_link: "https://nike-shoes-website-ten.vercel.app/",
   },
-  {
-    name: "Coucher Clone",
-    description:
-      "Created a Coucher website clone utilizing plain JavaScript, CSS, and HTML, with advanced animations powered by GSAP to enrich the user experience.",
-    tags: [
-      {
-        name: "javaScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "gsap",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gsap_practice,
-    source_code_link: "https://github.com/TaahaaUsman",
-  },
-  {
-    name: "Dice Game",
-    description:
-      "Through building the game, I enhanced my ability to create interactive and responsive user interfaces, while also working on DOM manipulation, user interaction and State management.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: dice,
-    source_code_link: "https://github.com/TaahaaUsman",
-  },
-  {
-    name: "Digital Clock",
-    description:
-      "Designed and built a digital clock with a visually appealing layout using plain CSS and JavaScript. The clock features smooth animations and a polished design to enhance its functionality and aesthetic.",
-    tags: [
-      {
-        name: "javaScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: clock,
-    source_code_link: "https://github.com/TaahaaUsman",
-  },
+  // {
+  //   name: "Dice Game",
+  //   description:
+  //     "Through building the game, I enhanced my ability to create interactive and responsive user interfaces, while also working on DOM manipulation, user interaction and State management.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "js",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: dice,
+  //   source_code_link: "https://github.com/TaahaaUsman",
+  // },
+  // {
+  //   name: "Digital Clock",
+  //   description:
+  //     "Designed and built a digital clock with a visually appealing layout using plain CSS and JavaScript. The clock features smooth animations and a polished design to enhance its functionality and aesthetic.",
+  //   tags: [
+  //     {
+  //       name: "javaScript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: clock,
+  //   source_code_link: "https://github.com/TaahaaUsman",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -144,3 +144,9 @@ In this section I create a contact section where someone can send me an email. A
 Soo that's all....
 
 <h2>Debug and Launch the website...</h2>
+
+# Steps for optimization
+
+1. reduce image sizes all
+2. convert all images to to webp format
+3. Remove libraries of icons and animations

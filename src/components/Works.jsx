@@ -4,6 +4,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../style";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
+import { FaGlobe } from "react-icons/fa";
 
 import { github } from "../assets";
 
@@ -14,6 +15,7 @@ const ProjectCard = ({
   image,
   source_code_link,
   index,
+  website_link,
 }) => {
   return (
     <Tilt
@@ -33,7 +35,13 @@ const ProjectCard = ({
           />
 
           {/* Code of Gihub icon */}
-          <div className="absolute inset-y-4 inset-x-[280px] m-3 card-img_hover ">
+          <div className="absolute inset-y-4 inset-x-[230px] m-3 card-img_hover w-24 flex gap-2">
+            <div
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              onClick={() => window.open(website_link, "_blank")}
+            >
+              <FaGlobe />
+            </div>
             <div
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
               onClick={() => window.open(source_code_link, "_blank")}
