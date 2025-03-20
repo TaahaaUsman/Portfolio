@@ -35,6 +35,10 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
+import irg from "./my_icons/irg.png";
+import node from "./tech/node.png";
+import express from "./tech/express.png";
+import mongodb from "./tech/mongodb.png";
 
 export {
   // My icons
@@ -55,6 +59,10 @@ export {
   img2,
   img3,
   vu,
+  irg,
+  node,
+  express,
+  mongodb,
   // My icons end
   backend,
   creator,

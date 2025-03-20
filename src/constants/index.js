@@ -19,11 +19,14 @@ import {
   nike,
   iphone,
   ccl,
-  teacher2,
   img1,
   img2,
   img3,
   vu,
+  irg,
+  node,
+  mongodb,
+  express,
 } from "../assets";
 
 export const navLinks = [
@@ -55,15 +58,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React JS Developer",
-    icon: mobile,
-  },
-  {
-    title: "Front End Developer",
+    title: "MERN Stack Developer",
     icon: backend,
   },
   {
-    title: "JavaScript Developer",
+    title: "Front End Developer",
+    icon: mobile,
+  },
+  {
+    title: "Back End Developer",
     icon: creator,
   },
 ];
@@ -106,6 +109,18 @@ const technologies = [
     icon: threejs,
   },
   {
+    name: "NodeJS",
+    icon: node,
+  },
+  {
+    name: "ExpressJS",
+    icon: express,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
     name: "git",
     icon: git,
   },
@@ -117,30 +132,31 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Frontend Developer Intern",
+    company_name: "IRG GLOBAL",
+    icon: irg,
+    iconBg: "#ffff",
+    date: "Dec 2024 - Continue",
+    points: [
+      "Designed and developed over 30 high-quality 3D models in Blender for web applications, despite having no prior experience with Blender.",
+      "Quickly learned and mastered Blender, integrating 3D models into web projects to enhance user engagement and visual appeal.",
+      "Worked on the Savari ride-booking application, implementing key frontend features to improve user experience and functionality.",
+      "Collaborated with designers and backend developers to create a seamless and responsive UI for the Savari app, similar to Uber and other ride-booking platforms.",
+      "Developed and optimized frontend components using modern frameworks and best practices, ensuring high performance and scalability.",
+    ],
+  },
+  {
     title: "Medical Representative",
-    company_name: "CCL Phamaceuticals",
+    company_name: "CCL Pharmaceutical",
     icon: ccl,
     iconBg: "#383E56",
-    date: "Jan 2022 - Oct 2024",
+    date: "Dec 2022 - Dec 2024",
     points: [
       "Developed and executed sales strategies to promote pharmaceutical products, achieving the second-highest sales across Pakistan.",
       "Collaborated with healthcare professionals and cross-functional teams to meet sales targets and improve product visibility.",
       "Consistently managed and exceeded monthly sales goals throughout tenure at the company.",
       "Earned a prestigious foreign tour as recognition for exceptional sales performance.",
       "Provided regular feedback and insights to the sales team, contributing to continuous improvement in sales tactics.",
-    ],
-  },
-  {
-    title: "Teacher",
-    company_name: "Ghazali High School",
-    icon: teacher2,
-    iconBg: "#ffff",
-    date: "July 2020 - Dec 2021",
-    points: [
-      "Developed and implemented engaging lesson plans to align with the curriculum and educational standards.",
-      "Fostered a positive and inclusive classroom environment that encouraged student participation and learning.",
-      "Assessed and monitored student progress through assignments, exams, and projects, providing constructive feedback.",
-      "Collaborated with colleagues, parents, and school administration to support student development and address individual needs.",
     ],
   },
 ];
